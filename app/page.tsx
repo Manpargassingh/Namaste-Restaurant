@@ -8,6 +8,7 @@ import Story from "./components/story";
 import MenuSelection from "./components/menuSelection";
 import Reservation from "./components/reservation";
 import Footer from "./components/footer";
+import DinnerBuffet from "./components/dinner-buffet";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <div className="bg-[#130f0c] overflow-x-clip">
       <Header />
       <Hero />
+      <DinnerBuffet />
       <Quote />
       <Story />
       <HeroMenu />
