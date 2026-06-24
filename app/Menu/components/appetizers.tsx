@@ -94,7 +94,7 @@ const appetizersRightColumn: Appetizer[] = [
   },
   {
     title: "Chat Papdi",
-    price: "$20",
+    price: "$9.95",
     description: "Crisp fried dough wafers mixed with chickpeas & potatoes, dipped in yogurt & chutney.",
     imageSrc: "/images/chat-papdi.jpg",
     imageAlt: "Chat Papdi",
@@ -105,6 +105,13 @@ const appetizersRightColumn: Appetizer[] = [
     description: "Two savory samosas topped with chickpeas masala and served with chutney.",
     imageSrc: "/images/chole-samosas-chat.webp",
     imageAlt: "Chole Samosas Chat",
+  },
+  {
+    title: "Onion Bhaji",
+    price: "$10.95",
+    description: "Onion coated in chickpea batter and deep-fried",
+    imageSrc: "/images/chole-samosas-chat.webp",
+    imageAlt: "Onion Bhaji",
   },
 ];
 

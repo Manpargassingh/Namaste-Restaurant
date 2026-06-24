@@ -15,21 +15,21 @@ interface LambSpecialty {
 const lambLeftColumn: LambSpecialty[] = [
   {
     title: "Goat Curry",
-    price: "$18.50",
+    price: "$19.50",
     description: "Goat cooked in an onion & tomato sauce with authentic spices.",
     imageSrc: "/images/goat-curry.jpg", // Replace with your image URL
     imageAlt: "Goat Curry",
   },
   {
     title: "Lamb Curry",
-    price: "$17.95",
+    price: "$18.95",
     description: "Lamb cooked in an onion & tomato sauce with authentic spices.",
     imageSrc: "/images/lamb-curry.jpg", // Replace with your image URL
     imageAlt: "Lamb Curry",
   },
   {
     title: "Lamb Vindaloo",
-    price: "$17.95",
+    price: "$18.95",
     description: "Boneless lamb simmered in a tangy curry sauce with potatoes & rare spices. Our famous, fiery Goan specialty.",
     imageSrc: "/images/lamb-vindaloo.jpg", // Replace with your image URL
     imageAlt: "Lamb Vindaloo",
@@ -50,14 +50,14 @@ const lambLeftColumn: LambSpecialty[] = [
   },
   {
     title: "Lamb Do Pyaza",
-    price: "$17.95",
+    price: "$18.95",
     description: "Boneless meat cooked with onion, ginger & garlic gravy, royal spices and sautéed diced onion and cilantro.",
     imageSrc: "/images/lamb-do-pyaza.jpeg", // Replace with your image URL
     imageAlt: "Lamb Do Pyaza",
   },
   {
     title: "Lamb Masala",
-    price: "$11.95",
+    price: "$18.95",
     description: "Boneless pieces of lamb simmered in thick onion gravy.",
     imageSrc: "/images/lamb-masala.jpg", // Replace with your image URL
     imageAlt: "Lamb Masala",
@@ -81,21 +81,21 @@ const lambRightColumn: LambSpecialty[] = [
   },
   {
     title: "Lamb Mango Curry",
-    price: "$17.95",
+    price: "$18.95",
     description: "Lamb cooked in mango sauce & herbs with broccoli & mild spices.",
     imageSrc: "/images/lamb-mango-curry.jpeg", // Replace with your image URL
     imageAlt: "Lamb Mango Curry",
   },
   {
     title: "Green Lamb Curry",
-    price: "$17.95",
+    price: "$18.95",
     description: "Lamb cooked with mint, spinach, green peppers, cilantro & herbs.",
     imageSrc: "/images/green-lamb-curry.jpeg", // Replace with your image URL
     imageAlt: "Green Lamb Curry",
   },
   {
     title: "Lamb Madras Curry",
-    price: "$17.95",
+    price: "$18.95",
     description: "Lamb pieces cooked in onion, tomato, coconut sauce and spices. Tempered with mustard seeds.",
     imageSrc: "/images/lamb-madras-curry.jpg", // Replace with your image URL
     imageAlt: "Lamb Madras Curry",

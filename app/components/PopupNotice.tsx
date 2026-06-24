@@ -6,7 +6,7 @@ export default function PopupNotice() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    setShow(true);
+    setShow(false);
   }, []);
 
   if (!show) return null;
@@ -31,9 +31,8 @@ export default function PopupNotice() {
           />
           <h2 className="text-2xl font-semibold mb-2">Notice</h2>
           <ul className="text-base mb-4 space-y-1">
-            <li><strong>Small rice:</strong> $2.50</li>
-            <li><strong>Large rice:</strong> $3.50</li>
-            <li><strong>Lunch buffet:</strong> <br /> Every <u>Thursday & Friday</u> - <span className="font-semibold">$17.95</span></li>
+            <li><strong>Small rice:</strong> $3.0</li>
+            <li><strong>Large rice:</strong> $4.0</li>
           </ul>
           <button
             onClick={() => setShow(false)}
