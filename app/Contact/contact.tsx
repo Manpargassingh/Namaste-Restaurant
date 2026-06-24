@@ -111,7 +111,7 @@ const Contact = () => {
             {status === "success" ? (
               <div className="bg-[#1a1f22] text-[#e0b172] rounded-sm p-6 text-center space-y-2">
                 <p className="text-2xl font-bold text-white">Message Sent!</p>
-                <p>Thank you for reaching out. We'll get back to you soon.</p>
+                <p>Thank you for reaching out. We&apos;ll get back to you soon.</p>
                 <button
                   onClick={() => setStatus("idle")}
                   className="mt-4 bg-[#e0b172] text-black tracking-widest px-8 py-2 text-sm font-medium hover:bg-[#c99a5a] transition-colors"
