@@ -7,6 +7,8 @@ import { faList } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const buffetInfo =
+    "Dinner Buffet Every Saturday | Adult $26 | Seniors $25 | Kid Age x $1.50";
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -42,14 +44,17 @@ const Header = () => {
           </li>
         </ul>
         <div>
+          <p className="mb-2 max-w-[260px] text-center text-xs font-semibold uppercase tracking-wider text-[#d18a44]">
+            {buffetInfo}
+          </p>
           <a
-              href="https://www.qooway.com/OLO/m-en?NamasteSalmonArm"
-              target="_blank"
-            >
-              <button className="mt-8 md:mt-0 bg-[#d18a44] text-black text-lg tracking-widest font-semibold py-4 px-10 uppercase hover:brightness-110 transition">
-                Order Online
-              </button>
-            </a>
+            href="https://www.qooway.com/OLO/m-en?NamasteSalmonArm"
+            target="_blank"
+          >
+            <button className="mt-8 md:mt-0 bg-[#d18a44] text-black text-lg tracking-widest font-semibold py-4 px-10 uppercase hover:brightness-110 transition">
+              Order Online
+            </button>
+          </a>
         </div>
       </div>
 
@@ -88,6 +93,9 @@ const Header = () => {
               <a href="./Contact">Contact</a>
             </li>
           </ul>
+          <p className="mt-6 text-sm font-semibold uppercase leading-6 tracking-wider text-[#d18a44]">
+            {buffetInfo}
+          </p>
           <div className="mt-4">
             <a
               href="https://www.qooway.com/OLO/m-en?NamasteSalmonArm"
