@@ -15,7 +15,11 @@ const Header = () => {
   };
 
   return (
-    <nav className="flex flex-row items-center justify-between bg-transparent shadow-md p-4 fixed top-0 left-0 w-full z-50 text-white">
+    <nav className="fixed top-0 left-0 z-50 w-full text-white shadow-md">
+      <div className="bg-[#d18a44] px-4 py-2 text-center text-xs font-bold uppercase tracking-[0.18em] text-black md:text-sm">
+        {buffetInfo}
+      </div>
+      <div className="flex flex-row items-center justify-between bg-black/35 p-4 backdrop-blur-sm">
       {/* ----------- LAPTOP NAVIGATION BAR ----------- */}
       <div className="hidden md:flex flex-row items-center justify-between w-4/5 mx-auto">
         <div>
@@ -44,9 +48,6 @@ const Header = () => {
           </li>
         </ul>
         <div>
-          <p className="mb-2 max-w-[260px] text-center text-xs font-semibold uppercase tracking-wider text-[#d18a44]">
-            {buffetInfo}
-          </p>
           <a
             href="https://www.qooway.com/OLO/m-en?NamasteSalmonArm"
             target="_blank"
@@ -93,9 +94,6 @@ const Header = () => {
               <a href="./Contact">Contact</a>
             </li>
           </ul>
-          <p className="mt-6 text-sm font-semibold uppercase leading-6 tracking-wider text-[#d18a44]">
-            {buffetInfo}
-          </p>
           <div className="mt-4">
             <a
               href="https://www.qooway.com/OLO/m-en?NamasteSalmonArm"
@@ -108,6 +106,7 @@ const Header = () => {
           </div>
         </div>
       )}
+      </div>
     </nav>
   );
 };
