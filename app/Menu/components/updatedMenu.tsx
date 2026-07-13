@@ -82,7 +82,6 @@ const categories: MenuCategory[] = [
   {
     title: "Tandoori Sizzlers",
     items: [
-      { title: "Chicken Tikka", price: "$21.95", description: "Boneless chicken thigh marinated with aromatic Indian spices, cooked in our clay oven and served with mint chutney and rice. Choose garlic, saffron or green." },
       { title: "Saffron Chicken Tikka", price: "$21.95", description: "Boneless chicken thigh marinated with saffron, yogurt and aromatic spices, roasted in our clay oven and served with mint chutney and rice." },
       { title: "Garlic Chicken Tikka", price: "$21.95", description: "Boneless chicken thigh marinated with garlic, yogurt and aromatic spices, roasted in our clay oven and served with mint chutney and rice." },
       { title: "Green Chicken Tikka", price: "$21.95", description: "Boneless chicken thigh marinated with fresh herbs, yogurt and aromatic spices, roasted in our clay oven and served with mint chutney and rice." },
