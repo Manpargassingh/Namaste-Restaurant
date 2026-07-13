@@ -16,6 +16,20 @@ interface MenuCategory {
 
 const categories: MenuCategory[] = [
   {
+    title: "Lunch Special",
+    description: "A delicious selection of complete lunch plates and bowls, prepared fresh for a satisfying midday meal.",
+    items: [
+      { title: "Veg Thali", price: "$16.00", description: "A satisfying vegetarian platter featuring a rotating selection of house-made Indian favourites." },
+      { title: "Meat Thali", price: "$17.00", description: "A hearty lunch platter featuring a rotating meat curry with complementary Indian favourites." },
+      { title: "Chole Bhature", price: "$16.00", description: "A classic Punjabi combination of spiced chickpea curry served with fluffy fried bread." },
+      { title: "Coconut Chicken Bowl", price: "$12.95", description: "Tender chicken in a creamy coconut curry served as a comforting lunch bowl." },
+      { title: "Chana Masala Bowl", price: "$11.95", description: "Hearty chickpeas simmered with tomatoes, onions and aromatic spices in a satisfying lunch bowl." },
+      { title: "Butter Chicken Bowl", price: "$12.95", description: "Tender chicken in our signature creamy butter tomato sauce, served as a satisfying lunch bowl." },
+      { title: "Amritsari Kulcha Plate", price: "$14.00", description: "Tandoor-baked stuffed flatbread served with flavourful chickpea curry and traditional accompaniments." },
+      { title: "Aloo Paratha Plate", price: "$14.00", description: "Whole-wheat flatbread stuffed with seasoned potatoes and served with traditional accompaniments." },
+    ],
+  },
+  {
     title: "Appetizers",
     items: [
       { title: "Vegetable Samosas", price: "$7.95", description: "Two savoury triangular pastries filled with spiced potatoes and peas. Served with tamarind chutney." },
