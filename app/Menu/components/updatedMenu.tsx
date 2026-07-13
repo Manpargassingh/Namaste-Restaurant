@@ -59,15 +59,21 @@ const categories: MenuCategory[] = [
     title: "Kids Special",
     items: [
       { title: "Butter Chicken Poutine", price: "Small $8.95 / Large $11.95", description: "Creamy butter chicken served on hot French fries with melting cheese." },
+      { title: "Butter Chicken Bowl", price: "$8.95", description: "A kid-sized bowl of tender chicken in our creamy signature butter sauce." },
       { title: "Fries", price: "$5.95", description: "Crisp golden French fries served hot and lightly seasoned." },
       { title: "Chicken Strips with Fries", price: "$8.95", description: "Chicken tenders coated with breadcrumbs and served with fries and ketchup." },
+      { title: "Mozza Sticks with Fries", price: "$8.95", description: "Gooey mozzarella sticks in a crisp coating, served with golden fries." },
     ],
   },
   {
     title: "Tandoori Sizzlers",
     items: [
       { title: "Chicken Tikka", price: "$21.95", description: "Boneless chicken thigh marinated with aromatic Indian spices, cooked in our clay oven and served with mint chutney and rice. Choose garlic, saffron or green." },
+      { title: "Saffron Chicken Tikka", price: "$21.95", description: "Boneless chicken thigh marinated with saffron, yogurt and aromatic spices, roasted in our clay oven and served with mint chutney and rice." },
+      { title: "Garlic Chicken Tikka", price: "$21.95", description: "Boneless chicken thigh marinated with garlic, yogurt and aromatic spices, roasted in our clay oven and served with mint chutney and rice." },
+      { title: "Green Chicken Tikka", price: "$21.95", description: "Boneless chicken thigh marinated with fresh herbs, yogurt and aromatic spices, roasted in our clay oven and served with mint chutney and rice." },
       { title: "Tandoori Chicken", price: "4 pieces $17.95 / 8 pieces $23.95", description: "Chicken drumsticks and thighs marinated with yogurt and traditional tandoori spices, roasted in our clay oven and served with mint chutney." },
+      { title: "Tandoori Soya Chaap", price: "$19.95", description: "Tender soya chaap marinated with yogurt, ginger and traditional Indian spices, roasted in our clay oven and served with mint chutney." },
       { title: "Tandoori Fish", price: "$19.95", description: "Basa fish marinated with ginger, garlic and exotic Indian spices, cooked in our clay oven and served with mint chutney on rice." },
       { title: "Prawn Tikka", price: "$22.95", description: "Tiger prawns marinated with ginger, garlic and exotic Indian spices, cooked in our clay oven and served with mint chutney on rice." },
     ],
